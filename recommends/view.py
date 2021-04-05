@@ -33,6 +33,7 @@ class RecommendsView(MethodView):
 
         return jsonify(
             {
+                'sku_found': len(result),
                 'result': result
             }
         )
