@@ -12,9 +12,10 @@ Service to search recommended sku by other sku
 # [Dependencies](requirements.txt)
 
 # Run service
-1. Clone repository.
-2. Set environment variables in `.env` file.
-3. Run command `docker-compose up -d --build`
+1. Clone repository. 
+2. Add csv file with 3 columns near application.
+3. Set environment variables in `.env` file.
+4. Run command `docker-compose up -d --build`.
 
 # Viewing logs
  - Run command `docker logs <container_id>`
