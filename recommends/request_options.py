@@ -6,6 +6,6 @@ from dataclasses_json import dataclass_json
 
 @dataclass_json
 @dataclass(frozen=True)
-class GetBookOptions:
+class GetRecommendationSkuOption:
     sku: str
-    min: t.Optional[float]
+    rec_min: t.Optional[float] = 0
