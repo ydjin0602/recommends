@@ -1,0 +1,3 @@
+flask
+dataclasses
+dataclasses_json
